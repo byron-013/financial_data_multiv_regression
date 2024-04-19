@@ -1,0 +1,29 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                  Close   R-squared (uncentered):                   0.759
+Model:                            OLS   Adj. R-squared (uncentered):              0.757
+Method:                 Least Squares   F-statistic:                              82.24
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):                    1.18e-30
+Time:                        16:49:11   Log-Likelihood:                         -2241.1
+No. Observations:                 404   AIC:                                      4488.
+Df Residuals:                     401   BIC:                                      4500.
+Df Model:                           3                                                  
+Covariance Type:                  HC1                                                  
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+Volume             5.676e-07   1.21e-07      4.683      0.000    3.29e-07    8.06e-07
+Unemployment Rate     9.4694      0.819     11.564      0.000       7.860      11.079
+rf_3 Yr              33.0249      5.714      5.779      0.000      21.791      44.259
+==============================================================================
+Omnibus:                       22.393   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               14.817
+Skew:                          -0.341   Prob(JB):                     0.000606
+Kurtosis:                       2.356   Cond. No.                     1.22e+08
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors are heteroscedasticity robust (HC1)
+[3] The condition number is large, 1.22e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
