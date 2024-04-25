@@ -2,7 +2,7 @@
 There are 2 folders in this file; here are their descriptions:
 
 Folder#1 - Project- Linear Regression Functions (n variable):
-This folder includes the files containing functions I made to perform linear regressions of n independent variables: containing implementations of both single variable and multivariable linear regression models, built entirely from scratch without the use of any statistical libraries. The single variable linear regression model demonstrates a deep understanding of the mathematical concepts behind linear regression, including the calculation of slope and intercept using covariance and variance. It also showcases the ability to generate random datasets for regression analysis and visualize the results.
+This folder includes the files containing functions I made to perform linear regressions of n independent variables: built entirely from scratch without the use of any statistical libraries. The single variable linear regression model demonstrates a deep understanding of the mathematical concepts behind linear regression, including the calculation of slope and intercept using covariance and variance. It also showcases the ability to generate random datasets for regression analysis and visualize the results.
 
 The multivariable linear regression model extends these concepts to multiple predictors. It calculates the coefficients and intercept of the regression model using the formula for multivariable linear regression and also calculates the predicted values and residuals. This model also demonstrates the ability to generate random datasets with multiple predictors and an understanding of the complexities involved in multivariable regression.
 
