@@ -1,8 +1,0 @@
-Variance Inflation Factor (VIF):
-           variables        VIF
-0             Volume   1.035471
-1  Unemployment Rate   1.384984
-2            rf_3 Yr   1.352670
-3              const  16.271989
-
-No variables to remove. All VIF values are below the threshold.

@@ -1,6 +1,0 @@
-Recommendation: If the F-statistic is not significant, consider applying a logarithmic transformation to your dependent variable. This can help with non-linearity and heteroscedasticity.
-Recommendation: If the Durbin-Watson statistic indicates autocorrelation, consider applying a square root transformation to your independent variables. This can help stabilize variance.
-Recommendation: If the Jarque-Bera test indicates non-normality, consider applying a square transformation to your dependent variable. This can help achieve normality.
-Recommendation: If the data is skewed, consider applying a cube root or Yeo-Johnson transformation. These can help reduce skewness.
-Recommendation: If the condition number is high, indicating potential multicollinearity, consider centering your variables by subtracting the mean or standardizing them. This can help mitigate multicollinearity.
-Recommendation: If the Omnibus test indicates non-normality, consider applying a Box-Cox transformation. This can help achieve normality.
